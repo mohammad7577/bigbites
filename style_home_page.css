@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html , body {
+    height: 100% !important;
+}
+
+body {
+    height: 100%;
+    background-repeat: no-repeat !important;
+}
+
+#linked_in{
+    background-color: white; 
+    color: black; 
+    font-weight: bold; 
+    font-size: 20pt;
+    padding: 2px 2px;
+    
+}
+
+#order_details{
+    font-weight: bold;  
+    color: white; 
+    text-decoration: none;
+}
+
+#sing_in{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;  
+    margin-right: 6px;
+}
+
+#img_big_bite{
+    box-shadow: 0px 0px 16px 5px rgb(204, 141, 25);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#img_big_bite:hover{
+transform: scale(1.03 , 1.03);
+}
+
+#in{
+background-color: rgb(3, 122, 181);
+color: white;
+border: 0.1px rgb(3, 122, 181) solid;
+border-radius: 5px;
+
+}
+
+.btn_media{
+    border: none;
+    color:white;
+    font-weight: bold;
+    font-size: 15pt;
+    clip-path: polygon(0 1%, 100% 0, 100% 50%, 100% 100%, 47% 100%, 0 25%);
+    padding-left: 40px;
+    padding-bottom: 10px;
+    transition-property: clip-path;
+    transition-duration: 1s;
+}
+
+.btn_media:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);}
+
+#footer{
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    margin-left: 0.5px;
+}
+
+#instagram{
+    border: 3px rgb(79, 169, 214) inset;
+    font-family: courier;
+
+} 
+
+.plate1 , .plate2, .plate3, .plate4, .plate5, .plate6{
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    text-align: center;
+    box-shadow: 0px 0px 16px 5px rgb(230, 222, 222);
+    
+}
+
+.plate1{
+    background-image: url(images/plate1.jpg);
+}
+.plate2{
+    background-image: url(images/plate2.jpg);
+}
+.plate3{
+    background-image: url(images/plate3.jpg);
+}
+.plate4{
+    background-image: url(images/plate4.jpg);
+}
+.plate5{
+    background-image: url(images/plate5.jpg);
+}
+.plate6{
+    background-image: url(images/plate6.jpg);
+}
+
+#aside_main_div{
+    position: fixed;
+    right: -200px;
+    width:  90px;
+    top: 400px;
+    height: 240px;
+    width: 230px;
+    padding: 10px;
+    background-color: red;
+    transition-property: right;
+    transition-duration: 0.7s;
+    transition-delay: 0.2s;
+    cursor:  -webkit-grab;
+    
+    }
+
+#aside_main_div:hover{
+    right: -5px;
+}
+
+.food_reference{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 11pt;
+}
+.food_reference:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
